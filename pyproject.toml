@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kivypong"
+version = "0.1.0"
+description = "Touch Pong"
+authors = ["Dante <Godhand@ayohandgod.dev>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+docutils = "^0.14.0"
+pygments = "^2.4"
+pypiwin32 = "^223.0"
+"kivy_deps.sdl2" = "=0.1.22"
+"kivy_deps.glew" = "=0.1.12"
+"kivy_deps.gstreamer" = "=0.1.17"
+kivy = "=1.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
